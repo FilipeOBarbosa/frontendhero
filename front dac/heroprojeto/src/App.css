@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.App h1{
+  position: absolute;
+  top: 5px;
+  left: 77px;
+  padding: 0px;
+  color:#fff;
+  text-shadow: #000 2px 2px 2px;
+  font-size: 60px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.App p{
+  position:absolute;
+  top: 90px;
+  left: 100px;
+  padding: 0px;
+  color:#fff;
+  text-shadow: #000 2px 2px 2px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.App fieldset{
+  position:absolute;
+  top: 220px;
+  right: 90px;
+  padding: 0px;
+  height: 50%;
+  width: 20%;
+}
+
+.App iframe{
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  z-index: 1;
+}
+
+.App footer{
+  position: absolute;
+  bottom: 10px;
+  text-shadow: #000 2px 2px 2px;
+  font-family:cursive;
+  font-size: 12px;
+}
+
+.App button{
+  position: absolute;
+  top: 520px;
+  right: 150px;
+  padding: 0px;
+  height: 5%;
+  width: 10%;
+}
+
+.App h2{
+  position: absolute;
+  top: 115px;
+  right: 99px;
+  padding: 0px;
+  color:#fff;
+  text-shadow: #000 2px 2px 2px;
+  font-size: 40px;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
