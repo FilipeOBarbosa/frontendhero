@@ -1,0 +1,40 @@
+.Weapon h1{
+    position:absolute;
+    text-shadow: #000 2px 2px 2px;
+    color: aqua;
+    align-items: center;
+    top: 0px;
+}
+
+.Weapon-header {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .Weapon fieldset{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 150px;
+    height: 10%;
+    width: 20%;
+    color: #000;
+  }
+
+  .Weapon label{
+      margin-top: 20px;
+  }
+
+  .Weapon button{
+      margin-top: 20px;
+      height: 30%;
+      width: 30%;
+  }
+

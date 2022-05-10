@@ -1,10 +1,10 @@
-.App {
+.Hero {
   text-align: center;
 }
 
 
 
-.App-header {
+.Hero-header {
   background-color: #000000;
   min-height: 100vh;
   display: flex;
@@ -15,7 +15,7 @@
   color: white;
 }
 
-.App video{
+.Hero video{
   position: fixed;
   right: 0;
   bottom: 0;
@@ -25,7 +25,7 @@
   height: auto;
 }
 
-.App h1{
+.Hero h1{
   position: absolute;
   top: 5px;
   left: 77px;
@@ -37,7 +37,7 @@
 
 }
 
-.App p{
+.Hero p{
   position:absolute;
   top: 90px;
   left: 100px;
@@ -47,8 +47,10 @@
   font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
-.App fieldset{
+.Hero fieldset{
   position:absolute;
+  display: flex;
+  flex-direction: column;
   top: 220px;
   right: 90px;
   padding: 0px;
@@ -56,14 +58,14 @@
   width: 20%;
 }
 
-.App iframe{
+.Hero iframe{
   position: absolute;
   left: 50px;
   top: 200px;
   z-index: 1;
 }
 
-.App footer{
+.Hero footer{
   position: absolute;
   bottom: 10px;
   text-shadow: #000 2px 2px 2px;
@@ -71,16 +73,16 @@
   font-size: 12px;
 }
 
-.App button{
+.Hero button{
   position: absolute;
-  top: 520px;
+  top: 320px;
   right: 150px;
-  padding: 0px;
-  height: 5%;
-  width: 10%;
+  padding: 10px;
+  height: 10%;
+  width: 30%;
 }
 
-.App h2{
+.Hero h2{
   position: absolute;
   top: 115px;
   right: 99px;
@@ -90,6 +92,7 @@
   font-size: 40px;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
+
 
 
 
